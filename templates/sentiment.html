@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentimental Analysis</title>
+</head>
+<body>
+
+    <form action="/perform_sentiment" method="post">
+        <label for="">Type Your Text Here</label><br>
+        <textarea name="user_text" id=""></textarea><br><br>
+        <input type="submit" value="Analyse">
+    </form>
+          {% if result %}
+        <div class="result-box">
+            {% if result.label != "Error" %}
+                <h2>Result:</h2>
+                <p>
+                    <strong>Sentiment:</strong> 
+                    <span class="{{ result.label | lower }}">
+                        {% if result.label == "POSITIVE" %}
+                            😊 {{ result.label }}
+                        {% elif result.label == "NEGATIVE" %}
+                            😠 {{ result.label }} 
+                        {% else %}
+                            😐 {{ result.label }}
+                        {% endif %}
+                    </span>
+                </p>
+                <p><strong>Confidence:</strong> {{ result.score }}%</p>
+            {% else %}
+                <p style="color:red;">API failed. Please try again later.</p>
+            {% endif %}
+        </div>
+    {% endif %}
+
+   
+</body>
+</html>

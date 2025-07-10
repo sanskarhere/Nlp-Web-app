@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Now</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdkOmnl8E3pqAXPlC50KzEHpu6plXsEQ6ZHA&s" class="logo-img">
+    <h1 style="color: red;"><i>NLP APP</i></h1> 
+    <h2>Login Now</h2>
+
+    {% if message %}
+         <p style="color: green;">{{message}}</p>
+    {% endif %}
+
+    <form action="/login_process" method="post" >
+        <label for="email">Enter Name</label><br>
+        <input type="email" id="email" placeholder="📧 email" name="email" required><br>
+        <label for="password">Enter Password</label><br>
+        <input type="Password" id="password"  placeholder="🔒 password" name="password" required><br><br>
+        <input type="submit" value ='Login Now'>
+    </form> <br>
+    <p>Not Registered?<a href="/register">Register Here</a></p>
+
+    
+</body>
+</html>
