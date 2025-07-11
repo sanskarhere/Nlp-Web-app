@@ -1,6 +1,6 @@
 <mark> <i> Nlp-Web-app <i> <mark>
 
-🧠 NLP Web App – Sentiment Analysis & Named Entity Recognition
+<h1>🧠h NLP Web App – Sentiment Analysis & Named Entity Recognition</h1>
 
 A **full-stack Natural Language Processing web application** built using **Flask, HuggingFace Transformers, HTML, and CSS**.  
 It allows users to log in securely and analyze text for **sentiment** (positive, neutral, negative) and **named entities** (person, location, organization, etc.) in real time.
