@@ -1,6 +1,6 @@
-<mark> <i> Nlp-Web-app <i> <mark>
+ <h1><mark> <i> Nlp-Web-app <i> <mark></h1>
 
-<h1>🧠h NLP Web App – Sentiment Analysis & Named Entity Recognition</h1>
+<h1>🧠 LP Web App – Sentiment Analysis & Named Entity Recognition</h1>
 
 A **full-stack Natural Language Processing web application** built using **Flask, HuggingFace Transformers, HTML, and CSS**.  
 It allows users to log in securely and analyze text for **sentiment** (positive, neutral, negative) and **named entities** (person, location, organization, etc.) in real time.
@@ -37,7 +37,7 @@ It reflects my ability to think **end-to-end** like a full-stack engineer.
 
 Screenshot 
 
-<video src=https://github.com/user-attachments/assets/ba15aff3-89e6-4c79-95f8-68978d5ef261 controls autoplay >Coudnt load Thsi Time<
+<video src=https://github.com/user-attachments/assets/ba15aff3-89e6-4c79-95f8-68978d5ef261 controls autoplay  height ="500px" width="700px">Coudnt load Thsi Time<
 
 
 ⚙️ How to Run Locally
