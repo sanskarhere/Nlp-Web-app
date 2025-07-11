@@ -37,7 +37,7 @@ It reflects my ability to think **end-to-end** like a full-stack engineer.
 
 Screenshot 
 
-https://github.com/user-attachments/assets/ba15aff3-89e6-4c79-95f8-68978d5ef261
+<video src=https://github.com/user-attachments/assets/ba15aff3-89e6-4c79-95f8-68978d5ef261 controls autoplay >Coudnt load Thsi Time<
 
 
 ⚙️ How to Run Locally
