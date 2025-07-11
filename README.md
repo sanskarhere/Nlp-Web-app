@@ -35,6 +35,10 @@ It allows users to log in securely and analyze text for **sentiment** (positive,
 > To demonstrate my ability to build a **real-world AI-powered web app** from scratch — including authentication, API integration, and meaningful UI/UX.  
 It reflects my ability to think **end-to-end** like a full-stack engineer.
 
+Screenshot 
+
+https://github.com/user-attachments/assets/ba15aff3-89e6-4c79-95f8-68978d5ef261
+
 
 ⚙️ How to Run Locally
 
